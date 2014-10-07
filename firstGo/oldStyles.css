@@ -1,0 +1,283 @@
+@font-face
+{
+font-family: wbContent;
+src: url('../assets2/fonts/architectsdaughter-webfont.eot');
+src: url('../assets2/fonts/architectsdaughter-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../assets2/fonts/architectsdaughter-webfont.woff') format('woff'),
+     url('../assets2/fonts/architectsdaughter-webfont.ttf') format('truetype'),
+     url('../assets2/fonts/architectsdaughter-webfont.svg#architects_daughterregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+font-family:'wbHeader';
+src: url('../assets2/fonts/danielbk-webfont.eot');
+src: url('../assets2/fonts/danielbk-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../assets2/fonts/danielbk-webfont.woff') format('woff'),
+     url('../assets2/fonts/danielbk-webfont.ttf') format('truetype'),
+     url('../assets2/fonts/danielbk-webfont.svg#daniel_blackregular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face
+{
+font-family: wbTitle;
+src: url('../assets2/fonts/bermudalpstd-squiggle.eot');
+src: url('../assets2/fonts/bermudalpstd-squiggle.eot') format('embedded-opentype'),
+     url('../assets2/fonts/bermudalpstd-squiggle.woff') format('woff'),
+     url('../assets2/fonts/bermudalpstd-squiggle.ttf') format('truetype'),
+     url('../assets2/fonts/bermudalpstd-squiggle.svg#BermudaLPStdSquiggle') format('svg');
+}
+
+#container2
+{
+	position:relative;
+	margin: auto;
+	margin-top:1%;
+	width:98%;
+	min-height:650px;
+	max-width: 1400px;
+	border-width:5px;
+	border-right-style:outset;
+	border-left-style:inset;
+	border-top-style:outset;
+	border-bottom:none;
+	background-image:url('../assets2/images/tray.png');
+ 	background-repeat:repeat-x;
+ 	background-position:left bottom;
+	-webkit-box-shadow:5px 20px 5px -6px #777;
+  	 -moz-box-shadow:5px 20px 5px -6px #777;
+     		  box-shadow:5px 20px 5px -6px #777;
+   overflow:auto;
+ }
+ 
+#blueHorz
+{
+	position:relative;
+	margin-top:8%;
+	width:99%;
+	height:50px;
+	background-image: url('../assets2/images/blueHor.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:bottom;
+	font-family:'wbHeader';
+}
+
+#blueHorz h2
+{
+	margin-left:15%;
+	display:inline;
+	font-size:16pt;
+}
+
+#title
+{
+	display: inline-block;
+	margin-left:80%;
+	margin-top:5%;
+	margin-bottom:-5%;
+	font-family: wbTitle;
+	font-size:16pt;
+} 
+
+#logo2
+{
+  position:absolute;
+	top:10px;
+	left:10px;
+	width:200px;
+	height:70px;
+	background:#FFF;
+	margin-left:0px;
+	margin-top:0px;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+          box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	background-image: url('../assets2/images/RMLogo.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:move;
+}
+
+#logo2:before, #logo2:after
+{
+	content:"";
+  position:absolute;
+  z-index:-1;
+  -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+  box-shadow:0 0 20px rgba(0,0,0,0.8);
+  top:0;
+  bottom:0;
+  left:10px;
+  right:10px;
+  -moz-border-radius:100px / 10px;
+  border-radius:100px / 10px;
+}
+
+#logo2:after
+{
+	right:10px;
+  left:auto;
+  -webkit-transform:skew(8deg) rotate(3deg);
+     -moz-transform:skew(8deg) rotate(3deg);
+      -ms-transform:skew(8deg) rotate(3deg);
+       -o-transform:skew(8deg) rotate(3deg);
+          transform:skew(8deg) rotate(3deg);
+}
+
+#logo2 a
+{
+	display:inline-block;
+	width:200px;
+	height:30px;
+}
+
+
+#stories
+{
+	margin-left:5% !important;
+}
+
+.wbColumns2
+{
+	position:relative;
+	margin-right:2%;
+	margin-bottom:3%;
+	width:25%;
+	min-height:430px;
+	float:left;
+	background-image: url('../assets2/images/blueVert1.png');
+	background-repeat:no-repeat;
+	background-size:contain;
+	font-family: wbContent;
+	font-size:10pt;
+}
+
+#blueVert1,#skillBlueVert1,#aboutBlueVert1,#projectsBlueVert1
+{
+	margin-left:12%;
+
+}
+
+/*__________________________ postit drag drop_______________________*/
+#board
+{
+	position:relative;
+	max-width: 1200px;
+	margin:2%;
+}
+
+.navLinks
+{
+	margin-top:30%;
+	margin-left:15%;
+	margin-right:10%;
+	display:inline-block;
+}
+
+.navLinks:link, .navLinks:visited
+{
+	text-decoration:none;
+}
+
+.navLinks:hover, .navLinks:active
+{
+	text-decoration:underline;
+	color:red;
+}
+
+/*yellow*/
+#postIt1,#postIt2,#postIt3,#postIt4,#postIt5,#postIt6,#postIt7
+{
+	position:absolute;
+	width:75px;
+	height:65px;
+	margin:10px;
+  background-color: #FFDB02;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F4E289), to(#FFDB02)); /* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #F4E289, #FFDB02); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  background-image:    -moz-linear-gradient(top, #F4E289, #FFDB02); /* Firefox 3.6-15 */
+  background-image:      -o-linear-gradient(top, #F4E289, #FFDB02); /* Opera 11.10-12.00 */
+  background-image:         linear-gradient(to bottom, #F4E289, #FFDB02); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	-webkit-box-shadow:4px 10px 4px -6px #777;
+	   -moz-box-shadow:4px 10px 4px -6px #777;
+	        box-shadow:4px 10px 4px -6px #777;
+	cursor:move;
+	font-family:'wbHeader';
+	font-size:13pt;
+}
+
+#postIt1
+{
+	top:170px;
+	left:0%;
+}
+
+#postIt2
+{
+	top:300px;
+	left:0%;
+}
+
+#postIt3
+{
+	top:430px;
+	left:0%;
+}
+
+/*pink*/
+#postIt4
+{
+	top:350px;
+	left:47%;
+	background-color: #F097B6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#E8C4D1), to(#F097B6)); /* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #E8C4D1, #F097B6); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  background-image:    -moz-linear-gradient(top, #E8C4D1, #F097B6); /* Firefox 3.6-15 */
+  background-image:      -o-linear-gradient(top, #E8C4D1, #F097B6); /* Opera 11.10-12.00 */
+  background-image:         linear-gradient(to bottom, #E8C4D1, #F097B6); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+/*teal*/
+#postIt5
+{
+	left:80%;
+	background-color: #53C2E4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A8D3DD), to(#53C2E4)); /* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #A8D3DD, #53C2E4); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  background-image:    -moz-linear-gradient(top, #A8D3DD, #53C2E4); /* Firefox 3.6-15 */
+  background-image:      -o-linear-gradient(top, #A8D3DD, #53C2E4); /* Opera 11.10-12.00 */
+  background-image:         linear-gradient(to bottom, #A8D3DD, #53C2E4); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+#postIt5 p
+{
+	margin-top:30%;
+	margin-left:15%;
+	margin-right:10%;
+	display:inline-block;
+}
+
+/*green*/
+#postIt6,#postIt7
+{
+	left:22%;
+	margin-top:0%;
+	background-color: #CEDB70;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#DCE0A0), to(#CEDB70)); /* Chrome, Safari 4+ */
+  background-image: -webkit-linear-gradient(top, #DCE0A0, #CEDB70); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+  background-image:    -moz-linear-gradient(top, #DCE0A0, #CEDB70); /* Firefox 3.6-15 */
+  background-image:      -o-linear-gradient(top, #DCE0A0, #CEDB70); /* Opera 11.10-12.00 */
+  background-image:         linear-gradient(to bottom, #DCE0A0, #CEDB70); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+#postIt7
+{
+	margin-top:0%;
+	left:55%;
+}

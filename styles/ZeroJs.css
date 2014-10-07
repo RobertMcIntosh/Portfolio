@@ -1,0 +1,31 @@
+/*
+Description: styles for portfolio site
+Website:	rmportfolio.info
+Author: Robert McIntosh
+Notes: tweaks for disabled js
+*/
+
+#about2
+{
+	margin-top: -90px;
+}
+
+#how
+{
+	margin-top:0;
+}
+
+#enjoy
+{
+	margin-top:35px;
+}
+
+.showMoreLess
+{
+	height: 100%;
+}
+
+.showLink
+{
+	display: none !important;
+}
