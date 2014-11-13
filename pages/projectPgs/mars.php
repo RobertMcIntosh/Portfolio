@@ -66,7 +66,7 @@
 
 	<div id="mars3" class="wbColumns">
 		<h1>Midwest Animal Rescue Services</h1>
-
+		<h3 id="marsCP">(current project)</h3>
 		<div class="showMoreLess" id="showMoreClient">
 			<h2>Client, Project Definition</h2>
 			<p>Midwest Animal Rescue Services is committed to the rescue, rehab
@@ -150,14 +150,14 @@
 		</div>
 		<a href="#showMoreObstacle" class="showLink">More...</a>
 
-		<div class="showMoreLess" id="showMoreOutcome">
+		<!--  <div class="showMoreLess" id="showMoreOutcome">
 			<h2>Project Outcome</h2>
 			<p></p>
 
 			<p></p>
 		</div>
 		<a href="#showMoreOutcome" class="showLink">More...</a>
-
+		-->
 		<div class="showMoreLess" id="showMoreTech">
 			<h2>Tech Used</h2>
 			<ul>

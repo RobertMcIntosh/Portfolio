@@ -221,7 +221,6 @@ p
 	position:relative;
   float:right;
   display:inline;
-	margin-top:25px;
 	margin-right:-10px;
 	font-size:1.5em;
 	font-family:'CaviarDreamsRegular';
@@ -463,6 +462,7 @@ li
 	width: 143%;
 	margin-left:0%;
 	margin-bottom:25px;
+	margin-top: 0;
 	padding-top: 200px;
 }
 
@@ -496,7 +496,7 @@ li
 #contactBox
 {
 	width:40%;
-	margin-top:133px;
+	margin-top:100px;
 	margin-left:30px;
 }
 
@@ -544,7 +544,7 @@ li
 #skills1
 {
 	width:60%;
-	margin-top:40px;
+	margin-top: 10px;
 	margin-left:5%;
 	-webkit-column-count: 5;
      -moz-column-count: 5;
@@ -556,9 +556,11 @@ li
 
 #skillsh2
 {
-	width:100%;
-	margin-left:45%;
-	padding-top: 60px;
+	width: 100%;
+	margin-left: 45%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-top: 85px;
 	font-size: 1.8em;
 	border-bottom:solid #4D4D4D 1px;
 }
@@ -634,6 +636,7 @@ dt
 	display:inline-block;
 	margin-top:60px;
 	margin-left:10px;
+	padding-left: 0;
 }
 
 #about1 ul li:hover, #about1 ul li:active
@@ -644,11 +647,10 @@ dt
 #about1 ul li
 {
 	position:static;
-	width:60%;
+	width:90%;
 	text-align:right;
-	margin-left:20%;
-	margin-top:12px;
-	padding-top: 0px;
+	margin:12px 10% 0;
+	padding: 0;
 	-webkit-box-shadow: 10px 16px 6px -9px rgb(119, 119, 119);
 					box-shadow: 10px 16px 6px -9px rgb(119, 119, 119);
 }
@@ -656,7 +658,7 @@ dt
 #about1 a
 {
 	display:block;
-	padding: 30px 2px 15px 0px;
+	padding: 30px 10px 15px 0px;
 }
 
 #intro h3, #how h3, #enjoy h3
@@ -688,6 +690,12 @@ dt
 	margin-top:1.5%;
 	width:65%;
 	margin-left: 15px;
+}
+
+#projectsCP
+{
+	font-size:.85em;
+	font-weight:300;
 }
 
 .showMoreLess
@@ -827,6 +835,16 @@ a[href^="#showMoreTech"]
 	margin-top:10px;
 	padding-left: 15px;
 	font-size: 1.3em;
+}
+
+#mars3 h1
+{
+	margin-bottom:0;
+}
+
+#mars3 #marsCP
+{
+	padding:0;
 }
 
 .hgaUl
@@ -1748,11 +1766,6 @@ input[type=radio]:checked + label
 		margin-left: 5%;
 	}
 
-	#about1 ul li
-	{
-		margin-left:1%;
-	}
-
 	.lbPopup:target video
 	{
 		width:70%;
@@ -1854,7 +1867,6 @@ input[type=radio]:checked + label
 	{
 		display:inline-block;
 		float:none;
-		top: 10px;
 	}
 
 	#hga1 #nav li, #hga1 #nav a, #metro1 #nav li, #metro1 #nav a,
@@ -2063,19 +2075,14 @@ input[type=radio]:checked + label
 
 	#skillsh2
 	{
-    width: 61%;
-		margin-left: 40%;
+    width: 59%;
+		margin-left: 41%;
     font-size: 1.55em;
 	}
 
 	#about1
 	{
     width: 15%;
-	}
-
-	#about1 ul
-	{
-		margin-right: 5px;
 	}
 
 	#about2
@@ -2255,7 +2262,7 @@ input[type=radio]:checked + label
 
 	#contactBox
 	{
-    margin-top: 110px;
+    margin-top: 70px;
 	}
 
 	#myInfo

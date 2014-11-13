@@ -1,3 +1,4 @@
+
 <ul>
 	<li>
 		<a id="navSkills" class="navLinks" href="../../index.php?content=skills">

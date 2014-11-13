@@ -20,6 +20,7 @@
 		<div class="front">
 			<h2><a href="pages/projectPgs/mars.php">
 				Website:<br>Midwest Animal Rescue Services
+								<br><span id="projectsCP">(current project)</span>
 				</a>
 			</h2>
 		</div>
